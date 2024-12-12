@@ -1,0 +1,11 @@
+<form method="get">
+    <input type="text" name="id">
+    <button type="submit"> serch</button>
+</form>
+<ul>
+    {% for c in course %}
+        <li>
+            c ID: {{c.id}}, c Name:{{c.na}}, Teacher: {{c.tna}}
+        </li>
+    {% endfor %}
+</ul>

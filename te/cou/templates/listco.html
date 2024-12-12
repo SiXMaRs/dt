@@ -1,5 +1,8 @@
-{% for c in co %}
-    <li>
-        {{c.id}}, {{c.na}}
-    </li>
-{% endfor %}
+<h1>List Course</h1>
+<ul>
+    {% for c in corse %}
+        <li>
+            c ID: {{c.id}}, c Name:{{c.na}}, Teacher: {{c.tna}}
+        </li>
+    {% endfor %}
+</ul>

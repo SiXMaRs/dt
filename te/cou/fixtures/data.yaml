@@ -1,0 +1,20 @@
+- model: cou.course
+  pk: 1
+  fields:
+    id: 1
+    na: DST
+    tna: dowm
+
+- model: cou.course
+  pk: 2
+  fields:
+    id: 2
+    na: DST1
+    tna: dowm2
+
+- model: cou.course
+  pk: 3
+  fields:
+    id: 3
+    na: SI1
+    tna: dowm1
